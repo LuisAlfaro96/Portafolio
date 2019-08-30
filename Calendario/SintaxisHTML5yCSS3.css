@@ -1,0 +1,164 @@
+
+
+
+#divTitulo{
+	background-color: #e9d4b3;
+  }
+
+#tituloCentrado{
+	text-align: center;
+	}
+
+body{
+	font-family: Arial;
+	color: #003366;
+	font-weight: 700;
+	background-image: linear-gradient(to right, #000066 , #007399);
+	text-shadow: 3px 2px black;
+	}
+	
+#pEjemplo{
+	font-family: Arial;
+	font-weight: 400;
+}
+h1 {
+	color: #003366;
+	}
+
+h2 {
+	color: #003366;
+	}
+
+h3 {
+	color: #003366;
+	}
+h4 {
+	color: #003366;
+	}
+
+/*divs*/
+div{
+	border: 1px solid black;
+  }
+
+/*Contenedores para el cuerpo*/
+div#Contenedor{
+	margin: auto;
+	width: 1024px;
+	height: 256px;
+	
+}
+
+div#contenido1{
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-color:#ddbc88;
+}
+
+div#contenido2{
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-color:#d1a661;
+}
+
+/*Ejemplos parte de css*/
+
+div#divEjemplo{
+	width: 50px;
+	height: 50px;
+	background-color:red;
+}
+
+div#divBI{
+	width: 100px;
+	height: 100px;
+	background-image: url("ditto.jpg");
+}
+
+h1#h1TA{
+	text-align: center;
+}
+
+h1#h1TD{
+	text-decoration: overline;
+}
+
+p#pTT{
+	text-transform: capitalize;
+}
+
+p#pTI{
+	text-indent: 50px;
+}
+
+h1#h1LSp{
+	letter-spacing: 5px;
+}
+
+h1#h1Wp{
+	word-spacing: 10px;
+}
+
+h1#h1TSh{
+	text-shadow: 3px 2px black;
+}
+
+p#pFS{
+	font-style: italic;
+}
+
+p#pFSize{
+	font-size: 8px;
+}
+
+p#pFW{
+	font-weight: 1000;
+}
+
+p#pFV{
+	font-variant: small-caps;
+} 
+
+div#divBR{
+	width: 50px;
+	height: 50px;
+	background-color:red;
+	border-radius: 25px;
+}
+
+div#divG{
+	width: 50px;
+	height: 50px;
+	background-image: linear-gradient(to right, blue, skyblue);
+}
+
+p#pMC{
+	column-count: 2;
+} 
+
+
+div#divH{
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+}
+
+div#divH:hover {
+	background-color: skyblue;
+}
+
+div#divHT{
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+	transition: border-radius 1s;
+}
+
+div#divHT:hover {
+	border-radius: 50px;
+
+}
+
+

@@ -1,0 +1,104 @@
+
+div#divTitulo{
+	background-color: #964e00;
+	margin: auto;
+	width: 600px;
+	height: 70px;
+	border: 4px solid black;
+}
+
+div#contenedorTodo{
+	background-color:#f9d91c;
+	margin: auto;
+	width: 434px;
+	height: 306px;
+	border: 2px solid black;
+}
+
+/*Area 1*/
+div#calendario{
+	margin: auto;
+	width: 430px;
+	height: 50px;
+	border: 2px solid black;
+}
+  
+div#anterior{
+	width: 90px;
+	height: 50px;
+	float: left;
+	background-color: #c2a058;
+	text-align:center;
+}
+
+div#titulo{
+	width: 250px;
+	height: 50px;
+	float: left;
+	background-color: #c2a058;
+	text-align:center;
+}
+
+div#posterior{
+	width: 90px;
+	height: 50px;
+	float: left;
+	background-color: #c2a058;
+	text-align:center;
+}
+
+/*Area 2*/
+div#tabla{
+	background-color:#ccffff;
+	width: 430px;
+	height: 170px;
+	float: left;
+	text-align:center;
+	border: 2px solid black;
+}
+
+/*Area 3*/
+div#fechaactual{
+	background-color:#c2a058;
+	width: 430px;
+	height: 20px;
+	float: left;
+	text-align:center;
+	border: 2px solid black;
+}
+
+/*Area 4*/
+div#buscafecha{
+	width: 430px;
+	height: 50px;
+	float: left;
+	background-color:#964e00;
+	text-align:center;
+	border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+	font-family: Arial;
+	color: #003366;
+	font-weight: 700;
+	background-image: linear-gradient(to right, #ffa500 , #007399);
+	}
+
+h1 {
+	color: #003366;
+	}
+
+h2 {
+	color: #003366;
+	}
+
+

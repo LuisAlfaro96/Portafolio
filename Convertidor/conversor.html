@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<title>Convertidor de divisas</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="conversor.js"></script>
+
+<body>
+ <label>Luis Enrique Alfaro Haro</label>
+  <div>
+   <h1>Convertidor de Monedas</h1>
+   <table id="customers">
+  <tr>
+    <th>Pais</th>
+    <th>Bandera</th>
+    <th id="convert">Favorito</th>
+    <th id="convert2">Conversión</th>
+
+  </tr>
+  <tr>
+    <td>Costa Rica</td>
+    <td><img src="1.jpg"  width="80" height="40"></td>
+    <td><input type="checkbox" id="checkboxCR"  style="width:130px;height:20px"></td>
+    <td><input type="number" id="cantidaCR"  style="width:130px;height:20px"></td>
+  </tr>
+  <tr>
+    <td>Perú</td>
+    <td><img src="wp4213642.jpg"  width="80" height="40"></td>
+    <td><input type="checkbox" id="checkboxPR"  style="width:130px;height:20px"></td>
+    <td><input type="number" id="cantidadPE"  style="width:130px;height:20px"></td>
+  </tr>
+  <tr>
+    <td>México</td>
+    <td><img src="11.jpg"  width="80" height="40"></td>
+    <td><input type="checkbox" id="checkboxMX"  style="width:130px;height:20px"></td>
+    <td><input type="number" id="cantidadMX"  style="width:130px;height:20px"></td>
+  </tr>
+  <tr>
+    <td>Estados Unidos</td>
+    <td><img src="bandera-estados-unidos-america_1401-253.jpg"  width="80" height="40"></td>
+    <td><input type="checkbox" id="checkboxEEUU"  style="width:130px;height:20px"></td>
+    <td><input type="number" id="cantidadEEUU"  style="width:130px;height:20px"></td>
+  </tr>
+  <tr>
+    <td>Venezuela</td>
+    <td><img src="download.jpeg"  width="80" height="40"></td>
+    <td><input type="checkbox" id="checkboxVEN"  style="width:130px;height:20px"></td>
+    <td><input type="number" id="cantidadVEN"  style="width:130px;height:20px"></td>
+  </tr>
+  <tr>
+    <td>Ecuador</td>
+    <td><img src="bandera-del-ecuador.jpg"  width="80" height="40"></td>
+    <td><input type="checkbox" id="checkboxECU"  style="width:130px;height:20px"></td>
+    <td><input type="number" id="cantidadECU"  style="width:130px;height:20px"></td>
+  </tr>
+  <tr>
+    <td>Italia</td>
+    <td><img src="shutterstock-152854481.jpg"  width="80" height="40"></td>
+    <td><input type="checkbox" id="checkboxITA"  style="width:130px;height:20px"></td>
+    <td><input type="number" id="cantidadITA"  style="width:130px;height:20px"></td>
+  </tr>
+  <tr>
+    <td>Francia</td>
+    <td><img src="m2-vlies-non-woven-i40854.jpg"  width="80" height="40"></td>
+    <td><input type="checkbox" id="checkboxFRC"  style="width:130px;height:20px"></td>
+    <td><input type="number" id="cantidadFRC"  style="width:130px;height:20px"></td>
+  </tr>
+  <tr>
+    <td>China</td>
+    <td><img src="shutterstock-104282006.jpg"  width="80" height="40"></td>
+    <td><input type="checkbox" id="checkboxCH"  style="width:130px;height:20px"></td>
+    <td><input type="number" id="cantidadCH"  style="width:130px;height:20px"></td>
+  </tr>
+  <tr>
+    <td>Rusia</td>
+    <td><img src="russia-flag.jpg"  width="80" height="40"></td>
+    <td><input type="checkbox" id="checkboxRU"  style="width:130px;height:20px"></td>
+    <td><input type="number" id="cantidadRU"  style="width:130px;height:20px"></td>
+  </tr>
+</table>
+
+
+ </div>
+
+<!--<input id="inputFeet" type="number" placeholder="Feet" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">-->
+
+<input type="button" value="Convertir" onclick="cambiardivisas()"/>
+<input type="button" value="Limpiar" onclick="limpiar()"/>
+<!--<p>Meters: <span id="outputMeters"></span></p>-->
+
+
+
+</body>
+</html>

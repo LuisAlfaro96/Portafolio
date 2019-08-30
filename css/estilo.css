@@ -1,0 +1,113 @@
+
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+  width: 24%;
+}
+div.relative {
+  position: relative;
+  left: 30px;
+  width: 24%;
+  border: 3px solid #73AD21;
+}
+.Titulo{
+	background-color: gray;
+	color:black;
+	right: 0px;
+	left: 50px;
+	float:left;
+	border: 3px solid #000;
+	width: 24%;
+	padding: 17px;
+
+}
+.cities{
+	background-color: gray;
+	position:static; 
+	right: 0px;
+	left: 1000px;
+	float: left;
+	border: 3px solid #000;
+	width: 24%;
+	padding: 17px;
+	margin: 3px 3px;
+
+
+}
+.padre_foto{
+	background-color: gray;
+	width:201px;
+	height: 201px;
+	position:relative; 
+	right: 100px;
+	left: 200px;
+	top: -130px;
+	border: 3px solid #000;
+	margin: 3px 3px;
+
+}
+.padre_foto2{
+	background-color: gray;
+	width:201px;
+	height: 201px;
+	position:relative; 
+	right: 0px;
+	left: 0px;
+	top: 0px;
+	border: 3px solid #000;
+	margin: 3px 3px;
+
+}
+.hijo_foto{
+	 width: 30%;
+	 border: 3px solid #000;
+	 padding: 1px;
+	 margin: 3px 3px;
+	 height: 37px;
+	 position: absolute;
+
+	
+
+
+}
+html {
+      background:url(http://www.dreamtemplate.com/dreamcodes/bg_images/color/c4.jpg) no-repeat center center fixed;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+
+dialog{
+	position:static;
+	right: 10000px;
+}
+ul.a {
+  list-style-type: circle;
+}
+a.prub {
+  color: hotpink;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+img.prub2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.prub3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+}
+.centrado{
+  margin-left: auto;
+  margin-right: auto;
+}

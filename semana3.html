@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+  <title></title>
+  <link rel="stylesheet" href="css/estilo.css">
+  </head>
+ 
+
+  
+	
+   <div class="Titulo">
+   <h1>Semana 3: Sintaxis
+      HTML5 y CSS3</h1>
+   </div>
+  <br><br><br><br><br><br><br>
+  <ol> 
+  <p><var><h3>Elementos HTML estandar<h3></var></p>
+  <ul>
+  <li><p>El primer elemento a tratar es el tag "a", el cual define un hypervinculo,su sintaxis es: <xmp> <a href="link"> Esto es una prueba </a> </xmp> por ejemplo:</p></li>
+  <a href="practicas.html"> Esto es una prueba</a>
+  <li><p>El segundo elemento a tratar define acrónimos, su tag es "abbr " y su sintaxis es: <xmp> <abbr title="Titulo X">Acrónimo a mostrar</abbr> </xmp> por ejemplo:</p></li>
+  <abbr title="Acueductos y Alcantarillados">AyA</abbr>
+  <li><p>El tercer elemento a tratar resalta textos su tag es "b" y su sintaxis es: <xmp> <b>this is bold text</b></xmp> por ejemplo:</p></li>
+  <b>Texto resaltado</b>
+  <li><p>El cuarto elemento a tratar, escribe textos al revez,  su tag es "bdo" y su sintaxis es: <xmp> <bdo dir="rtl">Este texto abajo se escribirá al revez</bdo>< </xmp> por ejemplo:</p></li>
+  <bdo dir="rtl">Este texto abajo se escribirá al revez</bdo><
+  <li><p>El quinto elemento a tratar, hace uso de etiquetas, su principal uso es para la selección,  su tag es "label" y su sintaxis es: <xmp> <label for="Esocogencia">Mostrar la escogencia</label> </xmp> por ejemplo:</p></li>
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+  <li><p>El sexto elemento a tratar, permite mostrar imagenes desde el computador,  su tag es "img" y su sintaxis es: <xmp> <img src="imagen con formato"  width="anchura" height="altura"> </xmp> por ejemplo:</p></li>
+  <img src="dogo.jpeg"  width="60" height="60">
+  <li><p>El siguiente elemento a tratar, permite al usuario el ingreso de datos,  su tag es "input" y su sintaxis es: <xmp>  <input type="Tipo de dato" name="Nombre de entrada">  </xmp> por ejemplo:</p></li>
+  First name: <input type="text" name="FirstName">
+  <li><p>El siguiente elemento a tratar, hace enfatizarar al usuario sobre el uso de alguna tecla a usar,  su tag es "kbd" y su sintaxis es: <xmp>  <kbd>"letra del teclado"</kbd> </xmp> por ejemplo:</p></li>
+  <kbd>Ctrl</kbd> 
+  <li><p>Otro elemento de html básico es el "stroke", su función es tachar parte del texto que le inserte dentro de la etiqueta  y su sintaxis es: <xmp>  <strike>texto a tachar </strike> </xmp> por ejemplo:</p></li>
+   <strike>texto tachado</strike> 
+  <li><p>El tag "sub" tiene la función de posicionar un texto tageado medio caracter abajo de lo normal  y su sintaxis es: <xmp>  <sub>texto medio caracter por debajo</sub> </xmp> por ejemplo:</p></li>
+  <p>H<sub>2</sub>O</p>
+  <li><p>El tag "sub" tiene la función de posicionar un texto tageado medio caracter arriba de lo normal  y su sintaxis es: <xmp>  <sup>texto medio caracter por encima</sup> </xmp> por ejemplo:</p></li>
+  <p>H<sup>2</sup>O</p>
+  <li><p>El tag "textarea" es usado para generar bloques de texto, su sintaxis es: <xmp>  <textarea rows="4" cols="50">
+   AQUÍ VA EL TEXTO. 
+  </textarea>
+  </xmp> por ejemplo:</p></li>
+  <textarea rows="4" cols="50">
+    Aquí va nuestro pedazo de texto que para esta prueba lo voy a generar con esta cantidad de palabras. 
+  </textarea>
+   <li><p>El uso de la etiqueta "dd" es usado para describir un nombre y una función en la descripción de una lista y su sintaxis es: <xmp>   <dt>Nombre</dt>
+  <dd>Descripción</dd> </xmp> por ejemplo:</p></li>
+  <dl>
+    <dt>Coffee</dt>
+      <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+      <dd>White cold drink</dd>
+  </dl>
+  <li><p>Para poder generarun botón con html básico es mediante la "button" y su sintaxis es: <xmp> <button type="button">Click Me!</button> </xmp> por ejemplo:</p></li>
+   <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+   <li><p>Otro elemento a presentar es la etiqueta "h1", su función es elevar el tamaño de un texto y su sintaxis es: <xmp>  <h1>texto a agrandar</h1> </xmp> por ejemplo:</p></li>
+   <h1>texto agrandado</h1> 
+   <li><p>Un último elemento a presentar es la etiqueta "h6", su función es minimizar el tamaño de un texto y su sintaxis es: <xmp>  <h6>texto a agrandar</h6> </xmp> por ejemplo:</p></li>
+   <h6>texto más pequeño</h6> 
+   
+</ol> 
+<p><var><h3>Elementos HTML5<h3></var></p>
+  <ul>
+    <li><p>El primer elemento a tratar es el tag "bdi", el cual aisla parte del texto que debe tener otro formato,su sintaxis es: <xmp> <bdi>texto en otro formato</bdi> </xmp> por ejemplo:</p></li>
+      <a>User <bdi>إيان</bdi>: 90 points</a>
+    <li><p>Otro elemeneot muy usado en html5 es el salto de línea "br", su sintaxis es: <xmp> <br> </xmp> por ejemplo:</p></li>
+    <a> Esto es una prueba de <br> salto de línea</a>
+    <li><p>El tag "code", define cuando se hace referencia a código de programación, su sintaxis es: <xmp> <code></code> </xmp> por ejemplo:</p></li>
+    <code>system.out.println("hola mundo")</code>
+
+    <li><p>La etiqueta "dialog" define una caja de dialogo o ventana,su sintaxis es: <xmp> <dialog open></dialog> </xmp> por ejemplo:</p></li>
+    <dialog open>This is an open dialog window</dialog>
+
+    <li><p>Otro elemento a destacar es el lineado para separar textos, con la etiqueta "hr" su sintaxis es: <xmp> <hr> </xmp> por ejemplo:</p></li>
+    <a>Aqui abajo aparecerá una línea</a>
+    <hr>
+
+    <li><p>La etiqueta "nav" es muy usada para presentarle al usuario tags de navegación, su sintaxis es: <xmp> <nav> Links Referentes</nav> </xmp> por ejemplo:</p></li>
+    <nav>
+      <a href="/html/">HTML</a> |
+      <a href="/css/">CSS</a> |
+      <a href="/js/">JavaScript</a> |
+      <a href="/jquery/">jQuery</a>
+    </nav>
+    <li><p>La etiqueta "ol", defina una lista ordenada, su sintaxis es: <xmp> <ol>items de la lista</ol> </xmp> por ejemplo:</p></li>
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <li><p>El tag "q" lo que hace es definir un "quote" en un texto,su sintaxis es: <xmp> <q></q> </xmp> por ejemplo:</p></li>
+    <p>WWF's goal is to: 
+    <q>Build a future where people live in harmony with nature.</q>
+    We hope they succeed.</p>
+
+    <li><p>Otro tag muy usado es el elemento "time",el cual sirve para definir horas en html, aunque en algunos navegadores, esta etiqueta no despliega nada en especial, su sintaxis es: <xmp> <p>We open at <time>10:00</time> every morning.</p></a>" </xmp> por ejemplo:</p></li>
+    <p>We open at <time>10:00</time> every morning.</p>
+    
+    <li><p>El elemento "var", se usa para describir texto en formato variable,su sintaxis es: <xmp> <var>Variable</var> </xmp> por ejemplo:</p></li>
+    <a >Tenemos 2 variables: <var>X</var> y <var>Y</var></a>
+
+    <li><p>Parecido a HTML estandar, se encuentra un tipo de input con type diferente,su sintaxis es: <xmp> <input type="search" name="q"> </xmp> por ejemplo:</p></li>
+     
+        Search Google: <input type="search" name="q"><br>
+     
+    <li><p>EL tag "details", provee un titulo que puede ser clickeado para expandir un texto,su sintaxis es: <xmp>  <details> </details></xmp> por ejemplo:</p></li>
+    <details>
+    <summary>Click to open</summary>
+    <p>Texto de prueba jejeje</p></details>
+
+    <li><p>Volviendo un poco a los formatos de texto, con el tag "i", se despliega texto en formato italic, su sintaxis es: <xmp> <i></i> </xmp> por ejemplo:</p></li>
+    Texto sin formato italic <i>Texto con formato Italic</i>
+    
+    <li><p>Otro elemento muy usado es la etiqueta "p", que da la función de creación de parrafos,su sintaxis es: <xmp> <p></p></xmp> por ejemplo:</p></li>
+    <p>This paragraph is defined using the HTML p tag.</p>  
+    <p>This is a new paragraph which is also defined using the HTML p tag.</p>
+    <li><p>Un último elemento a tratar es el "script", el cual define un script,su sintaxis es: <xmp> <script> </script> </xmp> por ejemplo:</p></li>
+    <script type="text/javascript">
+    document.write('The HTML Script tag allows you to place a script within your HTML documents');
+    </script>
+    </ul>
+  <p><var><h3>Elementos CSS<h3></var></p>
+    <ul>
+      <li><p>Propiedad background-color, permite otorgar color al background de nuestra pagina, su rango de valores permite tanto valores hexadecimales como colores textuales, un ejemplo es el backcground de esta página que está descrito de la siguiente forma <xmp> background-color: gray; </xmp></p></li> 
+      <li>Una segunda propiedad importante en el manejo de ccs3 es la de dar color a las letras de una clase, esto es mediante el atributo "color", de igual manera que background, su rango de colores se 
+      comporta igual y el ejemplo se encuentra en la caja de texto del título, que se consigió con con el código <xmp> color:black;</xmp></li> 
+      <li>Adentrandose en las propiedades del posicionamiento mediante css, tenemos una propiedad llamada "right", la cual su función es la de posicionar las clases o los elementos mediante uso de porcentajes o pixeles, de igual manera, el ejemplo se encuentra en el título de la página, la cual poseé un right de: <xmp> right: 0px; </xmp></li> 
+      <li><p>La propiedad Left, funciona de la misma manera que Rigt, posiciona los elementos mediante pixeles o porcentajes que el usuario entre, el ejemplo en el título es de : <xmp> left: 50px; </xmp> </li> 
+      <li><p>La float, posiciona los elementos caja hacia la izquierda de la pagina, de manera que estos sigan una ubicación adecuada, ejemplo de esto es el título que contiene  : <xmp> left: 50px; </xmp> </li>
+      <li><p>La propiedad width establece la anchura de un elemento, se puede manejar mediante pixeles o por porcentajes, el ejemplo se aprecia en el titulo con un width de : 24%;: <xmp> width: 24%; </xmp> </li>
+      <li><p>La propiedad padding  establece el espacio alrededor del contenido de un elemento, se puede manejar mediante pixeles o por porcentajes, el ejemplo se aprecia en el titulo con un padding de : 17%;: <xmp> padding: 17px; </xmp> </li>
+      <li><p>La propiedad heigh establece la altura de un elemento, se puede manejar pixeles o por palabras reservadas, en el siguiente ejemplo se aprecia un heigh de 201px, ya que la imagen es de 200px :</li>
+      <div class ="padre_foto2">
+   
+        <img src="yojpeg"  width="200" height="200">
+      </div>
+
+      <li><p>La propiedad border permite especificar el estilo de los elementos del borde, se puede manejar pixeles o por porcentajes, en el ejemplo anterior se aprecia un border 3px y un color negro, representado en hexadecimal,sintaxis: <xmp> border: 3px solid #000</xmp> </li>
+      <li><p>Las propiedades de margen CSS se usan para crear espacio alrededor de elementos, fuera de cualquier borde definido, hace uso de pixeles, en el ejemplo anterior se aprecia un margin de:3px 3px;representado en hexadecimal, sintaxis:<xmp> margin de:3px 3px;</xmp> </li> 
+      <li><p>
+        La propiedad de posición especifica el tipo de método de posicionamiento utilizado para un elemento (estático, relativo, fijo, absoluto o fijo), la posicion static muestra los elementos HTML en una posición estandar,ejemplo:</p></li> 
+      <div class="static">
+        Esta divisón tiene atributo estático.
+      </div>
+      <li><p>Establecer las propiedades superior, derecha, inferior e izquierda de un elemento relativamente posicionado hará que se ajuste fuera de su posición normal, ejemplo:</p></li>
+      <div class="relative">
+        This div element has position: relative.
+      </div>
+      <li><p>Atributo background en css, fue el encargado del fondo de todas las páginas mostradas en este porfal, se manejan ya sea por URL, o por direcciones de imagenes descargadas en el computador el ejemplo estaría presente en toda las páginas del portal y su sintaxis sería la siguiente: <xmp> background:url(http://www.dreamtemplate.com/dreamcodes/bg_images/color/c4.jpg) no-repeat center center fixed;</xmp> </p></li>
+      <li><p>En los atributos de lista, tenemos que en css podemos modificar diferentes tipos de lista mediante la propiedad "list-style-type", la cual sus parametros son manejados mediante palabras reservadas, ejemplo de esto sería algo así:</p>
+      </li>
+      <p>Ejemplo de listas desordenadas modificadas con css</p>
+      <ul class="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+      </ul>
+      <li><p>Los enlaces también pueden ser estilizados mediante css con la propiedad "color", la cual recibe trabaja mediante parametros de colores, por ejemplo</p></li>
+      <a href="prub" target="_blank">This is a link</a>
+      <li><p>Otra propiedad muy usada es el formato a las letras, mediante css se les puede asigarn el tipo de letra, ya sea a parrafos o titulos, por ejemplo, en todos los parrafos del portal, se está haciendo uso del tipo de letra "Times New Roman"</p></li>
+      <li><p>Para centrar el texto dentro de un elemento, se es posible con la propiedad text-align:center, notose que hace uso de palabras reservadas para el posicionamiento, ejemplo:</p></li>
+      <div class="center">
+        <p>This text is centered.</p>
+      </div>
+      <li><p>Otra propiedad visual de css, es la posibilidad de centrar imágenes, en el siguiente ejemplo hace uso del margin y display para poder centrarlo, su sintaxis sería algo así: <xmp> img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    </xmp>  y un ejemplo corresponde a: </p></li>
+      <img class="prub2" src="yojpeg" alt="Paris" style="width:20%">
+      <li><p>Otra propiedad que se le puede agregar a las imágenes es la de opacidad con el atributo"opacity", que recibe por parametro un valor entre 0-1, un ejemplo de estos sería:</p></li>
+      <img class="prub3" src="yojpeg" alt="Paris" style="width:20%">
+      
+
+ 
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  </ul>
+  <br><br><br>
+  <div>
+    <h3>Referencias</h3>
+    <ol><a href="https://developer.mozilla.org"> Developer.Mozilla</a> </ol>
+
+    <ol><a href="https://www.w3schools.com/"> w3Schools</a> </ol>
+   
+  </div>
+  <form action = "laboratorios.html">
+  <button name = "btton"> Volver</button>
+  </form>
+
+  
+  
+ 
+  
+  </body>
+</html>
